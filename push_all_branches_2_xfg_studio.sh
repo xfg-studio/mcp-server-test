@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # GitHub 用户名和个人访问令牌
-GITHUB_USER="xfg-studio"
+GITHUB_USER="xfg-studio-project"
 GITHUB_TOKEN="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"
-ORG_NAME="xfg-studio"
+ORG_NAME="xfg-studio-project"
 REPO_NAME=$(basename $(git rev-parse --show-toplevel))
 
 # 创建 GitHub 仓库
